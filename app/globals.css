@@ -18,16 +18,23 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background:black;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+.post-block{
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 1000px;
+  margin:10px auto;
+}
+.loader{
+  height: 100vh;
+   
+  color: white;
 }
